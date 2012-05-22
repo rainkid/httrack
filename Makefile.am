@@ -1,0 +1,6 @@
+AUTOMAKE_OPTIONS=foreign
+bin_PROGRAMS=httrack 
+LIBS += -lpthread -lm -lc -lz -O2 -O -g3 -Wall -Wcast-align -Wstrict-prototypes \
+-Wmissing-prototypes -Wmissing-declarations -Wpointer-arith \
+-Wnested-externs -D_REENTRANT -ldl
+httrack_SOURCES= htsalias.c htsalias.h htsback.c htsback.h htsbase.h htsbasenet.h htsbauth.c htsbauth.h htscache.c htscache.h htscatchurl.c htscatchurl.h htsconfig.h htscore.c htscore.h htscoremain.c htscoremain.h htsdefines.h htsfilters.c htsfilters.h htsftp.c htsftp.h htsglobal.h htshash.c htshash.h htshelp.c htshelp.h htsindex.c htsindex.h hts-indextmpl.h htsinthash.c htsinthash.h htsjava.c htsjava.h htslib.c htslib.h htsmd5.c htsmd5.h htsmms.c htsmms.h htsmodules.c htsmodules.h htsname.c htsname.h htsnet.h htsopt.h htsparse.c htsparse.h htsrobots.c htsrobots.h htsstrings.h htsthread.c htsthread.h htstools.c htstools.h htswizard.c htswizard.h htswrap.c htswrap.h htszlib.c htszlib.h httrack.c httrack.h httrack-library.h md5.h md5.c minizip/crypt.h minizip/ioapi.c minizip/ioapi.h minizip/mztools.c minizip/mztools.h minizip/unzip.c minizip/unzip.h minizip/zip.c minizip/zip.h mmsrip/common.h mmsrip/error.c mmsrip/error.h mmsrip/mms.c mmsrip/mms.h proxy/proxystrings.h proxy/store.c proxy/store.h 

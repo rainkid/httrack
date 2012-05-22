@@ -1,0 +1,15 @@
+HTTrack3.45-4+libhtsjava.so.2 launched on Tue, 22 May 2012 13:37:41 at www.baidu.com/index.html +*
+(httrack www.baidu.com/index.html +* -r6 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:37:42	Info: 	Note: due to www.baidu.com remote robots.txt rules, links beginning with these path will be forbidden: /shifen/, /homepage/, /cpro (see in the options to disable this)
+13:37:43	Error: 	"mirror stopped by user" (-1) at link www.baidu.com/ (from www.baidu.com/index.html)
+13:37:43	Error: 	"mirror stopped by user" (-1) at link https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F (from www.baidu.com/index.html)
+13:37:43	Error: 	"mirror stopped by user" (-1) at link https://passport.baidu.com/v2/?reg&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F (from www.baidu.com/index.html)
+
+HTTrack Website Copier/3.45-4 mirror complete in 2 seconds : 9 links scanned, 4 files written (17136 bytes overall) [9935 bytes received at 4967 bytes/sec], 14899 bytes transfered using HTTP compression in 2 files, ratio 40%, 2.5 requests per connection
+(3 errors, 0 warnings, 1 messages)
