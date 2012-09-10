@@ -1,0 +1,94 @@
+bin_PROGRAMS =httrack 
+LIBS += -lpthread -levent -lm -lc -lz -O2 -O -g3 -Wall -Wcast-align -Wstrict-prototypes \
+-Wmissing-prototypes -Wmissing-declarations -Wpointer-arith \
+-Wnested-externs -D_REENTRANT -ldl \
+-lpthread
+
+httrack_SOURCES = main.c main.h  \
+	 hts/htsalias.c \
+	 hts/htsalias.h \
+	 hts/htsback.c \
+	 hts/htsback.h \
+	 hts/htsbase.h \
+	 hts/htsbasenet.h \
+	 hts/htsbauth.c \
+	 hts/htsbauth.h \
+	 hts/htscache.c \
+	 hts/htscache.h \
+	 hts/htscatchurl.c \
+	 hts/htscatchurl.h \
+	 hts/htsconfig.h \
+	 hts/htscore.c \
+	 hts/htscore.h \
+	 hts/htscoremain.c \
+	 hts/htscoremain.h \
+	 hts/htsdefines.h \
+	 hts/htsfilters.c \
+	 hts/htsfilters.h \
+	 hts/htsftp.c \
+	 hts/htsftp.h \
+	 hts/htsglobal.h \
+	 hts/htshash.c \
+	 hts/htshash.h \
+	 hts/htshelp.c \
+	 hts/htshelp.h \
+	 hts/htsindex.c \
+	 hts/htsindex.h \
+	 hts/hts-indextmpl.h \
+	 hts/htsinthash.c \
+	 hts/htsinthash.h \
+	 hts/htslib.c \
+	 hts/htslib.h \
+	 hts/htsmd5.c \
+	 hts/htsmd5.h \
+	 hts/htsmms.c \
+	 hts/htsmms.h \
+	 hts/htsmodules.c \
+	 hts/htsmodules.h \
+	 hts/htsname.c \
+	 hts/htsname.h \
+	 hts/htsnet.h \
+	 hts/htsopt.h \
+	 hts/htsparse.c \
+	 hts/htsparse.h \
+	 hts/htsrobots.c \
+	 hts/htsrobots.h \
+	 hts/htsstrings.h \
+	 hts/htsthread.c \
+	 hts/htsthread.h \
+	 hts/htstools.c \
+	 hts/htstools.h \
+	 hts/htswizard.c \
+	 hts/htswizard.h \
+	 hts/htswrap.c \
+	 hts/htswrap.h \
+	 hts/htszlib.c \
+	 hts/htszlib.h \
+	 hts/httrack-library.h \
+	 hts/md5.h \
+	 hts/md5.c \
+	 minizip/crypt.h \
+	 minizip/ioapi.c \
+	 minizip/ioapi.h \
+	 minizip/mztools.c \
+	 minizip/mztools.h \
+	 minizip/unzip.c \
+	 minizip/unzip.h \
+	 minizip/zip.c \
+	 minizip/zip.h \
+	 mmsrip/common.h \
+	 mmsrip/error.c \
+	 mmsrip/error.h \
+	 mmsrip/mms.c \
+	 mmsrip/mms.h \
+	 proxy/proxystrings.h \
+	 hts/htsjava.c \
+	 hts/htsjava.h \
+	 html/htmlparser_fsm.h \
+	 html/htmlparser.h \
+	 html/htmlparser.c \
+	 html/jsparser.h \
+	 html/jsparser.c \
+         html/statemachine.c 
+	 html/jsparser_fsm.h \
+	 html/statemachine.h

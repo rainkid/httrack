@@ -1,0 +1,3 @@
+HTTrack 3.45.4 closed at 'htscoremain.c', line 238
+Reason:
+assert failed: 0
