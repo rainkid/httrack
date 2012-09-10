@@ -1,16 +1,19 @@
 /* config.h.in.  Generated from configure.in by autoheader.  */
 
 /* Check for dlopen in c */
-#undef DLLiB
+#undef DLLIB
 
 /* Check for ftime */
-#undef FTiME
+#undef FTIME
 
 /* Define to 1 if you have the `alarm' function. */
 #undef HAVE_ALARM
 
 /* Define to 1 if you have the <arpa/inet.h> header file. */
-#undef HAVE_ARPA_iNET_H
+#undef HAVE_ARPA_INET_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
 
 /* Define to 1 if you have the `dup2' function. */
 #undef HAVE_DUP2
@@ -25,7 +28,7 @@
 #undef HAVE_FSEEKO
 
 /* Define to 1 if you have the `ftime' function. */
-#undef HAVE_FTiME
+#undef HAVE_FTIME
 
 /* Define to 1 if you have the `getcwd' function. */
 #undef HAVE_GETCWD
@@ -37,13 +40,13 @@
 #undef HAVE_GETHOSTNAME
 
 /* Define to 1 if you have the `gettimeofday' function. */
-#undef HAVE_GETTiMEOFDAY
+#undef HAVE_GETTIMEOFDAY
 
 /* Define to 1 if you have the `inet_ntoa' function. */
-#undef HAVE_iNET_NTOA
+#undef HAVE_INET_NTOA
 
 /* Define to 1 if you have the <inttypes.h> header file. */
-#undef HAVE_iNTTYPES_H
+#undef HAVE_INTTYPES_H
 
 /* Define to 1 if your system has a GNU libc compatible `malloc' function, and
    to 0 otherwise. */
@@ -56,20 +59,20 @@
 #undef HAVE_MEMSET
 
 /* Define to 1 if you have the `mkdir' function. */
-#undef HAVE_MKDiR
+#undef HAVE_MKDIR
 
 /* Define to 1 if you have the <netdb.h> header file. */
 #undef HAVE_NETDB_H
 
 /* Define to 1 if you have the <netinet/in.h> header file. */
-#undef HAVE_NETiNET_iN_H
+#undef HAVE_NETINET_IN_H
 
 /* Define to 1 if your system has a GNU libc compatible `realloc' function,
    and to 0 otherwise. */
 #undef HAVE_REALLOC
 
 /* Define to 1 if you have the `rmdir' function. */
-#undef HAVE_RMDiR
+#undef HAVE_RMDIR
 
 /* Define to 1 if you have the `select' function. */
 #undef HAVE_SELECT
@@ -81,10 +84,10 @@
 #undef HAVE_STDDEF_H
 
 /* Define to 1 if you have the <stdint.h> header file. */
-#undef HAVE_STDiNT_H
+#undef HAVE_STDINT_H
 
 /* Define to 1 if you have the <stdlib.h> header file. */
-#undef HAVE_STDLiB_H
+#undef HAVE_STDLIB_H
 
 /* Define to 1 if you have the `strcasecmp' function. */
 #undef HAVE_STRCASECMP
@@ -99,10 +102,10 @@
 #undef HAVE_STRERROR
 
 /* Define to 1 if you have the <strings.h> header file. */
-#undef HAVE_STRiNGS_H
+#undef HAVE_STRINGS_H
 
 /* Define to 1 if you have the <string.h> header file. */
-#undef HAVE_STRiNG_H
+#undef HAVE_STRING_H
 
 /* Define to 1 if you have the `strncasecmp' function. */
 #undef HAVE_STRNCASECMP
@@ -114,7 +117,7 @@
 #undef HAVE_STRSTR
 
 /* Define to 1 if you have the <sys/ioctl.h> header file. */
-#undef HAVE_SYS_iOCTL_H
+#undef HAVE_SYS_IOCTL_H
 
 /* Define to 1 if you have the <sys/socket.h> header file. */
 #undef HAVE_SYS_SOCKET_H
@@ -123,22 +126,22 @@
 #undef HAVE_SYS_STAT_H
 
 /* Define to 1 if you have the <sys/timeb.h> header file. */
-#undef HAVE_SYS_TiMEB_H
+#undef HAVE_SYS_TIMEB_H
 
 /* Define to 1 if you have the <sys/time.h> header file. */
-#undef HAVE_SYS_TiME_H
+#undef HAVE_SYS_TIME_H
 
 /* Define to 1 if you have the <sys/types.h> header file. */
 #undef HAVE_SYS_TYPES_H
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#undef HAVE_UNiSTD_H
+#undef HAVE_UNISTD_H
 
 /* Define to 1 if you have the `utime' function. */
-#undef HAVE_UTiME
+#undef HAVE_UTIME
 
 /* Define to 1 if you have the <utime.h> header file. */
-#undef HAVE_UTiME_H
+#undef HAVE_UTIME_H
 
 /* Define to 1 if you have the `vfork' function. */
 #undef HAVE_VFORK
@@ -147,28 +150,32 @@
 #undef HAVE_VFORK_H
 
 /* Define to 1 if `fork' works. */
-#undef HAVE_WORKiNG_FORK
+#undef HAVE_WORKING_FORK
 
 /* Define to 1 if `vfork' works. */
-#undef HAVE_WORKiNG_VFORK
+#undef HAVE_WORKING_VFORK
 
 /* Check for in_addr_t */
-#undef HTS_DO_NOT_REDEFiNE_in_addr_t
+#undef HTS_DO_NOT_REDEFINE_in_addr_t
 
-/* Check for iPv6 */
-#undef HTS_iNET6
+/* Check for IPv6 */
+#undef HTS_INET6
 
 /* Check for large files support */
 #undef HTS_LFS
 
 /* Check for libsocket */
-#undef LiBSOCKET
+#undef LIBSOCKET
 
 /* LLint format */
-#undef LLiNT_FORMAT
+#undef LLINT_FORMAT
 
 /* LLint type */
-#undef LLiNT_TYPE
+#undef LLINT_TYPE
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
 
 /* Name of package */
 #undef PACKAGE
@@ -180,7 +187,7 @@
 #undef PACKAGE_NAME
 
 /* Define to the full name and version of this package. */
-#undef PACKAGE_STRiNG
+#undef PACKAGE_STRING
 
 /* Define to the one symbol short name of this package. */
 #undef PACKAGE_TARNAME
@@ -189,46 +196,46 @@
 #undef PACKAGE_URL
 
 /* Define to the version of this package. */
-#undef PACKAGE_VERSiON
+#undef PACKAGE_VERSION
 
 /* Check for setuid */
-#undef SETUiD
+#undef SETUID
 
 /* The size of `long', as computed by sizeof. */
-#undef SiZEOF_LONG
+#undef SIZEOF_LONG
 
 /* The size of `long long', as computed by sizeof. */
-#undef SiZEOF_LONG_LONG
+#undef SIZEOF_LONG_LONG
 
-/* Define to 1 if you have the ANSi C header files. */
+/* Define to 1 if you have the ANSI C header files. */
 #undef STDC_HEADERS
 
 /* Check for pthread in pthreads */
 #undef THREADS
 
 /* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
-#undef TiME_WiTH_SYS_TiME
+#undef TIME_WITH_SYS_TIME
 
 /* Version number of package */
-#undef VERSiON
+#undef VERSION
 
 /* Define to 1 to make fseeko visible on some hosts (e.g. glibc 2.2). */
-#undef _LARGEFiLE_SOURCE
+#undef _LARGEFILE_SOURCE
 
 /* Define for Solaris 2.5.1 so the uint32_t typedef from <sys/synch.h>,
-   <pthread.h>, or <semaphore.h> is not used. if the typedef were allowed, the
+   <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
    #define below would cause a syntax error. */
-#undef _UiNT32_T
+#undef _UINT32_T
 
 /* Define for Solaris 2.5.1 so the uint64_t typedef from <sys/synch.h>,
-   <pthread.h>, or <semaphore.h> is not used. if the typedef were allowed, the
+   <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
    #define below would cause a syntax error. */
-#undef _UiNT64_T
+#undef _UINT64_T
 
 /* Define for Solaris 2.5.1 so the uint8_t typedef from <sys/synch.h>,
-   <pthread.h>, or <semaphore.h> is not used. if the typedef were allowed, the
+   <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
    #define below would cause a syntax error. */
-#undef _UiNT8_T
+#undef _UINT8_T
 
 /* Define to `int' if <sys/types.h> doesn't define. */
 #undef gid_t

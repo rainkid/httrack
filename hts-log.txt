@@ -1,15 +1,15 @@
-HTTrack3.45-4+libhtsjava.so.2 launched on Tue, 22 May 2012 13:37:41 at www.baidu.com/index.html +*
-(httrack www.baidu.com/index.html +* -r6 )
+HTTrack3.45-4+libhtsjava.so.2 launched on Fri, 25 May 2012 15:28:31 at www.baidu.com
+(httrack www.baidu.com -q -w -p0 -r3 )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-13:37:42	Info: 	Note: due to www.baidu.com remote robots.txt rules, links beginning with these path will be forbidden: /shifen/, /homepage/, /cpro (see in the options to disable this)
-13:37:43	Error: 	"mirror stopped by user" (-1) at link www.baidu.com/ (from www.baidu.com/index.html)
-13:37:43	Error: 	"mirror stopped by user" (-1) at link https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F (from www.baidu.com/index.html)
-13:37:43	Error: 	"mirror stopped by user" (-1) at link https://passport.baidu.com/v2/?reg&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F (from www.baidu.com/index.html)
+15:28:32	Info: 	Note: due to www.baidu.com remote robots.txt rules, links beginning with these path will be forbidden: /shifen/, /homepage/, /cpro (see in the options to disable this)
+15:28:32	Info: 	engine: transfer-status: link updated: www.baidu.com/ -> www.baidu.com/index.html
+15:28:33	Warning: 	File has moved from www.baidu.com/restoreprefer to http://www.baidu.com
+No files purged
 
-HTTrack Website Copier/3.45-4 mirror complete in 2 seconds : 9 links scanned, 4 files written (17136 bytes overall) [9935 bytes received at 4967 bytes/sec], 14899 bytes transfered using HTTP compression in 2 files, ratio 40%, 2.5 requests per connection
-(3 errors, 0 warnings, 1 messages)
+HTTrack Website Copier/3.45-4 mirror complete in 3 seconds : 13 links scanned, 11 files written (95080 bytes overall), 1 files updated [6728 bytes received at 2242 bytes/sec], 7900 bytes transfered using HTTP compression in 1 files, ratio 43%, 3.2 requests per connection
+(No errors, 1 warnings, 2 messages)

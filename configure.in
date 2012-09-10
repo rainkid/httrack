@@ -3,7 +3,6 @@
 
 AC_PREREQ([2.68])
 AC_INIT([httrack], [1.0], [rainkide@gmail.com])
-AC_CONFIG_SRCDIR([htscoremain.h])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE(httrack, 1.0)
 
@@ -171,5 +170,6 @@ AC_DEFINE(FTIME, 1,[Check for ftime])], AC_MSG_RESULT([not found]))
 AC_CHECK_LIB(c, setuid, [
 AC_DEFINE(SETUID, 1,[Check for setuid])], AC_MSG_RESULT([not found]))
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile
+                 src/Makefile])
 AC_OUTPUT
